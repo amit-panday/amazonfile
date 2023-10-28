@@ -1,0 +1,40 @@
+body{
+    background-color: gray;
+    height: 300vh;
+}
+section{
+    background-color: aliceblue;
+    width: 600px;
+    height: 1200px;
+    margin: 100px;
+    border: solid 2px black;
+    position: relative;
+}
+div{
+    width: 100px;
+    height: 100px;
+    margin: 30px;
+}
+#box1{
+    background-color: crimson;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+#box2{
+    background-color: gold;
+    position: relative;
+    top: 10px;
+}
+#box3{
+    background-color: blue;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+#box4{
+    background-color: chartreuse;
+    position: sticky;
+    top: 30px;
+}

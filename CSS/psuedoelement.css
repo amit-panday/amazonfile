@@ -1,0 +1,29 @@
+h1{
+    color: crimson;
+    text-align: center;
+}
+h1::after{
+    content: "****";
+}
+h1::before{
+    content: "****";
+}
+p::first-line{
+    color: black;
+}
+p::first-letter{
+    font-size: 40px;
+    color: crimson;
+}
+p::selection{
+    background-color: black;
+    color: gold;
+}
+input{
+    color: crimson;
+    font-family: cursive;
+}
+input::placeholder{
+    color: blue;
+    padding-left: 20px;
+}

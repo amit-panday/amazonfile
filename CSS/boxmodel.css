@@ -1,0 +1,24 @@
+body{
+    background:linear-gradient(45deg ,  rgba(223, 39, 82, 0.444) , rgba(39, 120, 116, 0.889));
+    background-size: 100vw 100vh ;
+}
+h1{
+    color:rgb(146, 6, 6)
+}
+
+
+
+
+
+div{background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 300px;
+    margin: auto;/*auto will distribute the margin equally in left and right*/
+    padding: 100px;
+    border-color:rgba(255, 132, 0, 0.587) ;
+    border-radius: 0px 0px 10px black;
+   
+}
+/* margin: 50px;                    all direction  
+margin: 0px 50px;              top&bottom   left&right
+margin: 0px 50px 100px 150px;  top right bottom left */

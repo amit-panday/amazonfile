@@ -1,0 +1,86 @@
+<head>
+
+<body bgcolor="#7d2ae8" >
+    <h1 align="center"> UPSC </h1>
+    <hr>
+    <table border="black">
+    <form action=".table.html">
+        <lable for="user">USER NAME : </lable>
+        <input type="text" id="user" placeholder="Enter your name" required /><br><br>
+
+        <lable>Email : </lable>
+        <input type="email" placeholder="Enter your email" required /><br><br>
+
+        <label> Password :</label>
+        <input type="password" placeholder="Enter your password" maxlength="12" minlength="6" required /><br><br>
+
+        <label> Phone : </label>
+        <input type="text" style="width : 30px;" value="+91" readonly>
+        <input type="tel" placeholder="Enter your Phone" maxlength="10" minlength="10"/><br/><br/>
+        <!--js is required for extra validation-->
+
+        <label> Age :</label>
+        <input type="number" placeholder=" Enter your age number" minlength="18" maxlength="100" step="1" /><br><br>
+
+        <label>Date of birth</label>
+        <input type="date">
+       <input type="time"> 
+       <input type="datetime-local">
+       <input type="month">
+       <input type="week"> 
+        <br><br>
+
+        <fieldset>
+            <legend align="center">Select your Gender</legend>
+            <input type="radio" name="gender" id="m"> <label for="m">Male</label><br>
+            <input type="radio" name="gender" id="f"> <label for="f">Female</label><br>
+            <input type="radio" name="gender" id="o"> <label for="o">Others</label><br>
+        </fieldset>
+
+
+        <fieldset>
+            <legend align="center">Select your skills</legend>
+            <input type="checkbox" name="skills" id="j"> <label for="j">JAVA</label><br>
+            <input type="checkbox" name="skills" id="h"> <label for="h">HTML</label><br>
+            <input type="checkbox" name="skills" id="c"> <label for="c">CSS</label><br>
+            <input type="checkbox" name="skills" id="js"> <label for="js">JAVA SCRIPT</label><br>
+            <input type="checkbox" name="skills" id="s"> <label for="s">SQL</label><br>
+            <input type="checkbox" name="skills" id="h"> <label for="h">Hibernate</label><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Select Your State</legend>
+
+            <select>
+                <option disabled selected>---SELECT---</option>
+                <option>Uttar Pradesh</option>
+                <option>Greater Noida</option>
+                <option>Lucknow</option>
+                <option>kanpur</option>
+                <option>Varanasi</option>
+                <option>Allahabad</option>
+                <option>Chennai</option>
+                <option>Banglore</option>
+                <option>Mirzapur</option>
+            </select>
+        </fieldset><br><br>
+
+        <label>Upload Your Resume</label>
+        <input type="file" name="" id="">
+        <input type="color" name=""id="">
+        <input type="range" name=""id="">
+        <input type="url"   name=""id="">
+        <input type="search" name=""id="">
+        
+
+
+        
+
+        <input type="Submit" value="Signup"/>
+    </form>
+
+    <br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br>
+</table>
+</body>
+</head>

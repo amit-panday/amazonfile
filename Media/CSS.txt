@@ -1,0 +1,31 @@
+CSS
+
+Introduction and Implementation
+Types
+Background is CSS
+Text And font Proprties
+Selectors and Combinators
+Box modeling
+Psuedo classes
+Psudeo elements 
+Display Properties
+Position Properties
+Transform Properties
+Transition Properties
+animation Properties
+
+cloning a page + Landing Pages
+==========================================================================================
+                 Box modeling
+ Flow
+ --------
+ Background
+ Dimension
+ Spacing-Inside/ Outside
+ Borders
+ Shadow
+
+Selectors
+
+1)
+

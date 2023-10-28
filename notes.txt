@@ -1,0 +1,202 @@
+HTML is case in Sensitive 
+HTML is Markup Langauge,not a programming Langauge
+Markup language are used to build Structure of a Web page
+
+Tag in HTML
+
+What: Tags is a Keyword written inside the arrow  brackets. 
+Why: tag will tell the browser how to display its content.
+
+Bacis tags in  HTML ( Text )
+
+1) heder tag (h1-h6)
+Header tags are used to display the headings in UI.
+-Header will Apply extra boldness.
+-Header tag will apply with different font size.
+-Space occupied by the headers is always unique line.
+-We have six differnt headers variying with font size.
+
+2)Pragrapg Tag ( P )
+Pragrapg tag is used to display the Pragrapg is UI
+-Pagaraph tag display the content as a normal text.
+Pragrapg tag will automatically adjust the line of space to display
+based on user's Interface screen size.
+-Space occupied by the Pagaraph always uniqueline.
+
+
+3)Span Tag()
+Spantag is used to display a small piece of text in UI without breaking the line.
+-Span is a normal text.
+-Span will occupy same line to display it's content.
+
+4) br Tag
+BR tag is used to break a line expicitly
+5) hr Tag
+  horizontal Rule tag is used to insert a horizontal line. 
+
+Attributes.
+
+Attributes is used to apply the basic amount of style in HTML.
+
+text = "colourname/code"
+bgcolour = "colourname/code"
+background ="path/imagename"
+align = "left / center /right"
+
+Scroolling Data
+
+marque tag in HTML is used to scroll the data.
+
+Attributes of marquee
+1) direction    : left(def) , right, up ,down
+2) behaviour    : scroll(def) ,slide,alternate.
+3) bgcolor      : colorname code
+4) width        : px / %
+5) height       : px / %
+6) loop         : number
+7) scrollamount : nummber
+8) scrolldelay  : Time in ms
+
+
+Chararcter formatting tags
+
+Links In HTML
+
+Anchor tag can be used to create links in html,and it is denoted by 'a'.
+
+1) External link
+ If we redirect the page into another document then we call it as external link.
+
+ Syntax: <a href="path/docname" target=_self"> content </a>
+
+ 2) Internal link 
+
+ If we try to scrool the web page to different content of same then  we call it as Internal link.
+
+  syntax : <a href="#idname"> content <a/>
+
+            <div id ="idname">
+            content
+            </div>
+
+
+ Media tags
+
+1) img: img tag is html is used to insertimages documents to th UI, we can insert 
+        jpg,jpeg webp,jigf.
+     
+      src   =  "path/document name"
+      alt   =  "alternative text which is display if image is note loded properly "
+      width =  "px/%"
+      height= "px"
+======================================================================================
+2) audio: audio tag was introduced in html 5th version which can be used to insert audio
+          document 
+          src = "path/document name"
+          controls = no value
+=======================================================================================
+3) video: video tag was introduced in html 5th version which can be used to insert video
+           documents.
+          src :    = "path/documentname"
+          controls = no value
+          width    ="px"
+          height   ="px"
+          muted    = ""
+          loop
+          autoplay
+=======================================================================================
+4)  iframe : iframe can be use to insert other kind of documents into the current webnpage
+             we can insert html ,pdf, text kind of docs using iframe
+
+             src    = "path/documentname"
+             width  = "px"
+             height = "px"  
+=======================================================================================
+                LIST IN HTML
+
+When we need to display multiple content one below the other we can use a list tags.
+    we have two type in list.
+1) Ordered list: ol will display the list in numbering mode.
+
+                type : 1,A,a,i
+                start : character number
+
+2) Un Ordered list: ul will display the list in Bullet mode.
+                type: disc,circle,square
+
+  Table in HTML
+      In HTML we can display multiple data in the format of table(combination of rows and 
+      coloums) by using the table tag itself.
+      1) We can create a table with border by using TABLE tag and BORDER attribute.
+      2) Inside the table we can create a row by using TABLE ROW (tr) tag.
+      3) In frist row of table we insert a headers using TABLE HEADER (th) tag.
+      4) In rest of the rows of a table we insert a data using TABLE DATA (td) tag.
+
+      <TABLE>
+           <TR>  <TH>  </TR>
+           <TR>  <TD>  </TR>
+           <TR>  <TD>  </TR>
+      <TABLE>
+   
+     Attributes
+     1) border      -  "px"
+     2) bordercolor -  "colorname / code"
+     3) bgcolor     -  "colorname / code "
+     4) align       -  "left / center / right"
+     5) cellspacing -  "px" (space between the cells)
+     6) cellpadding -  "px" (space between cell border cell text)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

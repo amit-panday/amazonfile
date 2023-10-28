@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+  /* font-family: 'Dancing Script', cursive; */
+
+h1{
+    color: crimson;
+    font-size: 50px;
+    font-weight: 600;
+    font-style: normal;
+    font-family: 'pacifico', cursive;
+    text-align: center;
+
+    text-shadow: 10px, 8px 10px rgb(169, 23, 154);
+    text-decoration: underline crimson solid 8px;
+    text-underline-offset: 20px;
+    
+
+    text-decoration: underline rgb(183, 84,226);
+    text-decoration-color: crimson;
+    text-decoration: underline crimson;
+    text-decoration-style: solid,wavy,double dotted,dashed ;   
+     
+}
+p{
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'caveat',cursive;
+
+    text-align: center;
+    text-indent: 200px;
+    text-transform: capitalize;
+    text-transform: capitalize; 
+     /* all first letter will converted into uppercase, upper, lower, normal  */
+}
+button
+{
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    font-family: cursive;
+    margin-left: 500px;    
+}

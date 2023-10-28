@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Sign_up.css">
+</head>
+<body>
+    <section>
+        <h1>LOGIN</h1>
+        <form action="">
+            <table>
+                <tr>
+                    <td><label for="username">Username</label></td>
+                    <td><input type="text" id="username"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" id="error_msg1"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Password</label></td>
+                    <td><input type="password" id="password"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" id="error_msg2"></td>
+                </tr>                
+                <tr>
+                    <td colspan="2"><input type="checkbox" onclick="show_pwd()" name="" id=""> Show Password</td>
+                </tr>
+                <tr>
+                    <td><input type="submit" id="submit_btn"></td>
+                    <td><input type="reset" value="Cancel" id="cancel_btn"></td>
+                </tr>
+            </table>
+        </form>
+    </section>
+
+
+    <script src="Login.js"></script>
+</body>
+</html>

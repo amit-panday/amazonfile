@@ -1,0 +1,73 @@
+h1{
+    color: turquoise;
+    background-color: black;
+    text-align: center;
+    width: 300px;
+    margin: 5px auto;
+}
+h1:hover{
+    background-color: turquoise;
+    color: black;
+    width: 450px;
+    transition: 1s;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+}
+#box{
+    background-color: gold;
+    width: 150px;
+    height: 150px;
+    margin: 10px auto;
+    transition: 1s;
+}       
+#box:active{
+    background-color: crimson;
+    border-radius: 75px;
+}
+a:active{
+    color: gold;
+}
+input{
+    border: solid 1px rgb(70, 70, 207);
+    border-radius: 1px;
+}
+input:focus{
+    background-color: aqua;
+    border: solid 1px rgb(0, 157, 230);
+    outline: solid 2px blue(169,228,255,0.469);
+}
+input:invalid{
+    color: red;
+    border:solid 1px red ;
+    background-color: white;
+}
+a{
+    color: rgb(117, 7, 29);
+    text-decoration: dotted;
+}
+a:active{
+    color: gold;
+}
+a:visited{
+    color: orchid;
+}
+ol li:first-child{
+    color: red;
+}
+ol li:nth-child(2){
+    color: green;
+}
+ol li:nth-child(3){
+    color: aqua;
+}
+ol li:last-child{
+    color: blue;
+}
+
+
+
+
+
+
+
+

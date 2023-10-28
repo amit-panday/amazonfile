@@ -1,0 +1,52 @@
+Object methods: we have five Object methods 
+1) assign()
+2) freeze()
+3) entries()
+4) keys()
+5) values()
+
+1] Object.assign() : Object.assign methods assigns the property of source object to targeted object and 
+                    returns a new object.
+    Syntax : let new_Object = Object.assign(target, source)
+    Example:    let obj1 = {
+                    ename_1 : "kiran",
+                    eid_1 : "EMP104",
+                    edes : "Developer"
+                }
+                let obj2 = {
+                    ename_2 : "sachin",
+                    eid_2 : "EMP204",
+                    edes : "SE"
+                }
+                let result = Object.assign(obj1,obj2)
+                console.log(result)
+
+2] Object.freeze() : Object.freeze() freeze the property of an object from updating it.
+    Example:    let result = Object.freeze(obj1)
+                obj1.edes="senior developer"
+                console.log(result)
+                console.log(obj1)
+
+3] Object.entries  : Object.entries() converts the object and properties of an object in
+                     the form of an array.
+    Example :   let result=Object.entries(obj1)
+                console.log(result)
+
+4] Object.keys()    : Object.keys() specifies the key name of an obbject in the form of
+                      an array.
+    Example :   let result=Object.keys(obj1)
+                console.log(result)
+
+5] Object.values()  : Object.values() specifies the values of an object in the form of 
+                     an array.
+    Example :   let result=Object.values(obj1)
+                console.log(result)
+
+
+FUNCTION METHODS : 
+                whenever a same object method need to be used by the multiple objects we will go for
+                function methods, using function methods we can follow DRY principle.
+                The function methods are 
+                1) call()
+                2) apply()
+                3) bind()
