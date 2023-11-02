@@ -1,17 +1,15 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,300&display=swap'); */
 body{
     background: linear-gradient(#c04c8d,#264eae);
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
 }
 div{
-    background-color: white;
+    background-color: rgb(196, 188, 188);
     width: 350px;
     height: 500px;
     margin: 100px auto;
     padding: 30;
-    box-shadow: 0px 0px 25px rgb(113, 113, 113);
+    box-shadow: 0px 0px 25px rgb(rgb(138, 88, 88), green, blue);
     box-sizing: border-box;
     text-align: center;
 }
@@ -19,17 +17,16 @@ h1{
     font-size: 22px;
     font-weight: 700;
     margin-bottom: 30px;
-    
 }
 input{
-    background-color: rgba(232, 223, 223, 0.798);
+    background-color: (232,223,223,0.798);
     width: 310px;
     height: 35px;
     margin-bottom: 10px;
     padding-left: 20px;
-    border: none;
+    border:none
 }
-#checkbx{
+#checkbox{
     display: inline;
     width: 15px;
     height: 15px;
@@ -39,29 +36,26 @@ label{
     font-size: 15px;
 }
 button{
-    background-color: rgb(133, 24, 24);
+    background-color: rgb(rgba(0, 195, 255, 0.089), rgb(88, 90, 114), blue);
     width: 280px;
     height: 35px;
     margin: 20px 0px;
     border: none;
     color: white;
-    font-weight:500;
-    box-shadow: 0px 0px 10px rgb(165 165 165);
+    font-weight: 500px;
+    box-shadow: 0px 0px 10px rgb(red, green, rgb(36, 36, 134));
 }
 span{
-    /* margin: 100px 0px no working; */
-    color: rgb(197,197,197);
+    color: rgb(red, green, blue);
 }
 a{
     color: black;
     text-decoration: none;
     padding: 4px 20px;
-    /* margin: 20px 0px; not working */
-    border: solid 1px rgb(154, 154, 154);
+    border: solid 1px rgb(red, green, blue);
 }
 #signup-link{
     border: none;
     padding: 0px;
     text-decoration: underline;
-
 }
